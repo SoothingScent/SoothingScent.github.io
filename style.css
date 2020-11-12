@@ -57,7 +57,7 @@ section h2{
     margin-bottom: 20px;
 }
 .program p{
-    font-size: 15.7px;
+    font-size: 0.98rem;
 }
 footer {
     background-color: #143869;
@@ -100,7 +100,7 @@ font-style: normal;
     display: none;
 }
 .coding p{
-    font-size: 19px;
+    font-size: 1.18rem;
     line-height: 1.5;
 }
 .message {
