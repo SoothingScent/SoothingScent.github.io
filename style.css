@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.blind{
+    position: absolute;
+    left: -9999px;
+}
+header{
+    background-color: #143869;
+    color: #fff;
+    position: relative;
+}
+header h1{
+    line-height: 80px;
+    text-align: center;
+}
+.lnb ul{
+    display: none;
+}
+.lnb .menuAll{
+    display: block;
+    width: 45px;
+    height: 34px;
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    background: url(me_test/images/allmenu.png) no-repeat;
+    text-indent: -9999px;
+}
+section:nth-of-type(2n+1){
+    background-color: #f3f3f3;
+}
+section h2{
+    padding: 30px 0 50px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.program div{
+    border: 1px solid #aaa;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.program h3{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.program p{
+    font-size: 15.7px;
+}
+footer {
+    background-color: #143869;
+    color: #fff;
+    padding-top: 50px;
+}
+.sns{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.sns li{
+    float: left;
+}
+.sns li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+    background: url(me_test/images/icon_sns.png) no-repeat;
+    text-indent: -9999px;
+}
+.sns li:nth-child(2) a{
+background-position: -32px 0;
+}
+.sns li:nth-child(3) a{
+    background-position: -64px 0;
+
+}
+.sns li:nth-child(4) a{
+    background-position: -96px 0;
+
+}
+address{
+font-style: normal;
+}
+.container {
+    padding: 0 50px 50px;
+}
+.coding img{
+    display: none;
+}
+.coding p{
+    font-size: 19px;
+    line-height: 1.5;
+}
+.message {
+    padding-top: 50px;
+    text-align: center;
+}
+.message::before{
+    content: url(me_test/images/quot-1.png);
+}
+.message::after{
+    content: url(me_test/images/quot-2.png);
+    display: block;
+}
+blockquote {
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "나눔 명조", serif;
+    font-style: italic;
+    margin: 20px 0 10px;
+}
+span{
+    color: #aaa;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "나눔 명조", serif;
+    font-style: italic;
+    display: block;
+    margin-bottom: 20px;
+}
+@media screen and (min-width : 765px){
+    .lnb ul{
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    .lnb ul li {
+        display: inline-block;
+    }
+    .lnb ul li a {
+        padding: 0 30px;
+        line-height: 60px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .lnb .menuAll {
+        display: none;
+    }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .coding img{
+        display: block;
+        float: right;
+        padding-left: 60px;
+    }
+    .coding p{
+        padding-top: 50px;
+    }
+    .program {
+        width: 25%;
+        float: left;
+    }
+    .program div{
+        margin: 0 10px;
+        min-height: 350px;
+    }
+    footer address{
+        float: left;
+    }
+    .sns{
+        float: right;
+        margin-top: 0;
+    }
+}
