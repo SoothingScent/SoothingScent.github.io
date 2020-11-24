@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지캡션</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+$(function(){
+    $('.item').mouseover(function(){
+        $(this).find('p,span').stop()
+        .animate({opacity:1},300);
+        $(this).find('img')
+        .css({transform:'scale(1.1)', transition:'0.7s'})
+    }).mouseout(function(){
+        $(this).find('p,span').stop()
+        .animate({opacity:0},300);
+        $(this).find('img')
+        .css({transform:'scale(1.01)', transition:'0.7s'})
+    });
+});
+    </script>
+    <link rel="stylesheet" href="imgcaption.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="item">
+            <img src="1.png" alt="오징어">
+            <p>오징어</p>
+            <span></span>
+        </div>
+    </div>
+    <div id="wrap">
+        <div class="item">
+            <img src="2.jpg" alt="장수말벌">
+            <p>장수말벌</p>
+            <span></span>
+        </div>
+    </div>
+    <div id="wrap">
+        <div class="item">
+            <img src="3.jpg" alt="클리오네">
+            <p>클리오네</p>
+            <span></span>
+        </div>
+    </div>
+</body>
+</html>

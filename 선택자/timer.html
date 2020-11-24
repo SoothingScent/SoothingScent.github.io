@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+                var i = 2;
+                var j = 0;
+            var timing = setInterval(function(){
+                j++;
+                    if(j>=10){
+                        i++;
+                        j = 1;
+                    }
+                    if(i>=10){
+                        i=2;
+                        j=1;
+                    }
+                    $('#box').text(i+" * "+j+" = " + i*j)
+            },200);
+            //clearTimeout(timing);
+            // var count=0;
+            // var timing2 = setInterval(function(){
+            //     count++;
+            //     $('#box2').text(count);
+            // },1000);
+             $('button').click(function(){
+             clearInterval(timing);
+             });
+        });
+    </script>
+    <style>
+    #box{
+        width: 600px;
+        height: 200px;
+        border: 4px solid;
+        text-align: center;
+        line-height: 200px;
+    }
+    #box2{
+        width: 200px;
+        height: 200px;
+        border: 4px solid;
+        text-align: center;
+        line-height: 200px;
+        font-size: 2em;
+        margin-top: 50px;
+    }
+    </style>
+</head>
+<body>
+    <div id="box">
+        구구단
+    </div>
+    <button>stop</button>
+    <div id="box2">
+
+    </div>
+</body>
+</html>
