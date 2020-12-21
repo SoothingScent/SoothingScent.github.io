@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    color: inherit;
+}
+header{
+    width: 1400px;
+    margin: 0 auto;
+    height: 65px;
+}
+
+header .category{
+    width: 1400px;
+    margin: 0 auto;
+}
+header .category nav{
+    width: 700px;
+    float: right;
+}
+header h1{
+    float: left;
+    margin-top: 15.5px;
+}
+header nav {
+    float: right;
+}
+header nav li {
+    display: block;
+    float: left;
+}
+header nav li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 65px;
+}
+header nav li a:hover{
+    color: rgb(0, 168, 243);
+}
+header nav{
+    display: none;
+}
+header .subsearch input{
+    float: left;
+    width: 500px;
+    height: 25px;
+    margin-top: 17px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+header .subsearch img{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+}
+header .member{
+    width: 300px;
+    margin-left: 1100px;
+    float: right;
+    position: absolute;
+}
+header .member li{
+    display: block;
+    float: right;
+}
+header .member li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 65px;
+}
+header .member li a:hover{
+    color: rgb(0, 168, 243);
+}
+header.sticky{
+    width: 100%;
+    height: 65px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99; /*번호가 높을수록 윗면*/
+    background-color: #fff;
+}
+header.sticky .subsearch{
+    display: inherit;
+}
+
+header.sticky nav{
+display: none;
+}
+header.sticky .member li a{
+
+    float: left;
+}
+header.sticky nav{
+    text-indent: -9999em;
+}
+
+header .underheader {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    height: 65px;
+
+}
+/* .underheader ul{
+    margin-left: 10%;
+} */
+.underheader li{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.underheader li a{
+    display: block;
+    padding: 0 120.937496185px;
+    line-height: 65px;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.MMenu1, .MMenu2, .MMenu3, .MMenu4, .MMenu5{
+    width: 100%;
+    height: 0px;
+    /* border: 1px solid black; */
+    /* position: fixed; */
+    /* top: 132px; */
+    overflow: hidden;
+    background-color: white;
+}
+
+.mmenu1 li, .mmenu2 li, .mmenu3 li, .mmenu4 li, .mmenu5 li{
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.main .MMMenu{
+    border-bottom: 1px solid gray;
+}
+.main{
+    width: 1400px;
+    margin: 0 auto;
+height: 2000px;
+    /* border: 1px solid black; */
+    margin-top: 65px;
+}
+
+aside{
+    position: fixed;
+    top: 250px;
+    right: -340px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+aside img{
+    display: block;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 550px;
+    left: -52px;
+
+}
+aside nav .newcon {
+    font-size: 1em;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+aside nav .big {
+    background: linear-gradient(#fff,rgba(0,168, 243,0.5));
+    border-radius: 40px;
+    width: 100%;
+    height: 600px;
+    margin-top: 00px;
+    border: 2px solid #fff;
+}
+aside nav .small {
+    /* border: 3px solid rgb(0,168,243); */
+    border-radius: 40px;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+}
+aside nav .small2 {
+    height: 150px;
+    border-radius: 40px;
+
+}
+aside nav div p {
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+aside .open{
+
+}
+.container{
+    width: 100%;
+    background-color: #777;
+    border-top: 1px solid lightslategray;
+    color: lightyellow;
+}
+.container .ftop{
+    width: 1250px;
+    height: 250px;
+    margin: 0 auto;
+}
+.blind{
+    display: none;
+}
+
+.first{
+    width: 200px;
+    margin-right: 50px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+.second li{
+    margin-bottom: 10px;
+}
+
+.container .fbottom{
+    width: 1250px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.finfo{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.fbottom .fsns li{
+    margin-right: 15px;
+    float: left;
+}
+
+.fsns li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    background: url(icon_sns.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.fsns li:nth-child(2) a {
+    background-position: -32px 0;
+}
+
+.fsns li:nth-child(3) a {
+    background-position: -64px 0;
+}
+
+.fsns li:nth-child(4) a {
+    background-position: -96px 0;
+}
