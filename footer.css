@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font: inherit;
+}
+.container{
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid lightslategray;
+    color: lightyellow;
+}
+.container .ftop{
+    width: 1250px;
+    height: 250px;
+    margin: 0 auto;
+}
+.blind{
+    display: none;
+}
+
+.first{
+    width: 200px;
+    margin-right: 50px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+.second li{
+    margin-bottom: 10px;
+}
+
+.container .fbottom{
+    width: 1250px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.finfo{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.fbottom .fsns li{
+    margin-right: 15px;
+    float: left;
+}
+
+.fsns li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    background: url(img/icon_sns.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.fsns li:nth-child(2) a {
+    background-position: -32px 0;
+}
+
+.fsns li:nth-child(3) a {
+    background-position: -64px 0;
+}
+
+.fsns li:nth-child(4) a {
+    background-position: -96px 0;
+}

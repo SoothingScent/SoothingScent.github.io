@@ -17,6 +17,17 @@
                 height:'80px'
             },500);
         });
+        $('button').click(
+            function(){
+                $('aside').toggleClass('open');
+                if($('aside').hasClass('open')){
+                    $('aside').stop().animate({right:0},500);
+                    $('button').find('img').attr({'src':'btn_close.png'});
+                } else {
+                    $('aside').stop().animate({right:'-220px'},500);
+                    $('button').find('img').attr({'src':'btn_open.png'});
+                }
+            });
     });
     </script>
 </head>
@@ -69,5 +80,18 @@
     <div id="main">
 <img src="main_visual.jpg" alt="">
     </div>
+    <aside>
+        <nav>
+            <ul>
+                <div><img src="logo.png" alt=""></div>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">투자정보</a></li>
+                <li><a href="#">지속가능경영</a></li>
+                <li><a href="#">홍보센터</a></li>
+                <li><a href="#">인재채용</a></li>              
+            </ul>
+        </nav>
+        <button><img src="btn_open.png" alt="open"></button>
+    </aside>
 </body>
 </html>

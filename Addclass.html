@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addclass</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <style>
+    img{
+    padding: 10px;
+    background: gray;
+    }
+        .test1{
+            background-color: yellow;
+        }
+        .test2{
+            background-color: red;
+        }
+        .test3{
+            background-color: blue;
+        }
+    </style>
+    <script>
+        $(function(){
+            $('img').click(function(){
+                var n = $(this).index()+1;
+                if($(this).hasClass('test'+n)){
+                    $(this).removeClass('test'+n);
+                } else{
+                    $(this).addClass('test'+n);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="th1.jpg" alt="">
+    <img src="th2.jpg" alt="">
+    <img src="th3.jpg" alt="">
+</body>
+</html>
