@@ -1,0 +1,100 @@
+@charset "utf-8";
+.main{
+    width: 1400px;
+    height: 1235px;
+    margin: 0 auto;
+    /* border: 1px solid #000000; */
+    position: relative;
+}
+
+
+.main nav{
+    float: right;
+}
+
+.main nav li{
+    float: left;
+}
+
+.main nav li .mainkind{
+    width: 100%;
+    height: 398px;
+    margin: 5px;
+    /* border: 1px solid #000000;  */
+
+}
+
+.main nav ul li .mainkind .mainkindkind{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main nav ul li .mainkind .mainkindsetumei{
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.main nav ul li .mainkind .kindkind{
+    width: 295px;
+    height: 340px;
+    /* border: 1px solid #000000; */
+    margin: 5px 15px 5px 30px;
+    overflow: hidden;
+}
+.main nav ul li .mainkind .kindkind .imgdiv{
+    width: 295px;
+    height: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+.main nav ul li .mainkind .kindkind .clientimg{
+    width: 100%;
+   
+   
+    /* border: 1px solid #000; */
+}
+
+.main nav ul li .mainkind .kindkind .smallkind{
+    width: 295px;
+    height: 64px;
+    
+    /* border: 1px solid #000; */
+}
+.main nav ul li .mainkind .kindkind .smallkind .smalltitle{
+    width: 295px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 5px;
+    /* border: 1px solid #000; */
+}
+.main nav ul li .mainkind .kindkind .smallkind .setumei{
+    width: 295px;
+    height: 42px;
+    font-size: 12px;
+    /* border: 1px solid #000; */
+}
+
+.main nav ul li .mainkind .kindkind .money{
+    width: 295px;
+    height: 65px;
+    /* border: 1px solid #000; */
+}
+
+.main nav ul li .mainkind .kindkind .money .allmoney{
+    width: 295px;
+    height: 25px;
+    font-size: 15px;
+    color: darkgrey;
+    /* border: 1px solid #000; */
+}
+
+.main nav ul li .mainkind .kindkind .money .monmoney{
+    width: 295px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 23px;
+    /* border: 1px solid #000; */
+}
+

@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="Search.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="slidepart.css" >
+
     <script src="jquery-3.5.1.min.js"></script>
     <script src="jquery-ui.min.js"></script>
-    <link href="slidepart.css" rel="stylesheet">
     <script src="slidepartscript.js"></script>
     <script>
         $(function(){
@@ -24,11 +29,11 @@
                 $('aside').toggleClass('open');
                 if($('aside').hasClass('open')){
                     $('aside').stop().animate({right:0},500,'easeInQuad');
-                    $('.asidebtn').find('img').attr({'src':'xxx.png'});
+                    $('.asidebtn').find('img').attr({'src':'img/xxx.png'});
                 }
                 else{
                     $('aside').stop().animate({right:'-340px'},500,'easeOutQuad');
-                    $('.asidebtn').find('img').attr({'src':'free-icon-consulting-950781.png'});
+                    $('.asidebtn').find('img').attr({'src':'img/free-icon-consulting-950781.png'});
                 }
             });
             $('.imgdiv').mouseover(function(){
@@ -51,24 +56,24 @@
 <body>
     <header>
         <div class="category">
-            <h1><a href="#"><img src="logo1.png" alt=""/></a></h1>
+            <h1><a href="../mainpage/mainpage.html"><img src="img/logo1.png" alt=""/></a></h1>
             <nav>
             <ul>
-                <li><a href="#">어학</a></li>
-                <li><a href="#">기술</a> </li>
-                <li><a href="#">예술</a> </li>
-                <li><a href="#">Activity</a> </li>
-                <li><a href="#">기타</a> </li>
+                <li><a href="../subpage/subpage1.html">어학</a></li>
+                <li><a href="../subpage/subpage1.html">기술</a> </li>
+                <li><a href="../subpage/subpage1.html">예술</a> </li>
+                <li><a href="../subpage/subpage1.html">Activity</a> </li>
+                <li><a href="../subpage/subpage1.html">기타</a> </li>
             </ul>
             </nav>
             <div class="subsearch">
                 <input type="text" name="subsearch">
-                <a href="#"><img src="search.png"></a>
+                <a href="#"><img src="img/search.png"></a>
             </div>
             <div class="member">
                 <ul>
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#">회원가입</a></li>
+                    <li><a href="../subpage/login.html">로그인</a></li>
+                    <li><a href="../subpage/register.html">회원가입</a></li>
                 </ul>
             </div>
         </div>
@@ -124,7 +129,7 @@
             <div class="searchbar">
                 <form><input type="search" name="search">
                 </form>
-                <a href="#"><img src="search.png"></a>
+                <a href="#"><img src="img/search.png"></a>
             </div>
         </div>    
     </div>
@@ -157,7 +162,7 @@
                         <ul>
                             <li>
                                 <div class="kindkind">
-                              <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a></div> 
+                              <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a></div> 
                               <div class="smallkind">
                                 <div class="smalltitle">
                                     <span>게임</span>
@@ -180,7 +185,7 @@
                             </div>
                         </li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -204,7 +209,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv">   <a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv">   <a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>activity</span>
@@ -228,7 +233,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"> <a href="#"><img class="clientimg" src="./b.jpg"></a></div>
+                                <div class="imgdiv"> <a href="#"><img class="clientimg" src="img/b.jpg"></a></div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>게임</span>
@@ -259,7 +264,7 @@
                         <span class="mainkindkind">추천</span>
                         <ul>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -283,7 +288,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -307,7 +312,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -331,7 +336,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -362,7 +367,7 @@
                         <span class="mainkindkind">신규</span>
                         <ul>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -386,7 +391,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -410,7 +415,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -434,7 +439,7 @@
                                   </div>
                             </div></li>
                             <li><div class="kindkind">
-                                <div class="imgdiv"><a href="#"><img class="clientimg" src="./b.jpg"></a> </div>
+                                <div class="imgdiv"><a href="#"><img class="clientimg" src="img/b.jpg"></a> </div>
                                 <div class="smallkind">
                                   <div class="smalltitle">
                                       <span>괴식</span>
@@ -481,7 +486,7 @@
         </div>
         </div>
         </nav>
-        <div class="asidebtn"><img src="free-icon-consulting-950781.png" alt="open"></div>
+        <div class="asidebtn"><img src="img/free-icon-consulting-950781.png" alt="open"></div>
     </aside>
     <footer>
         <div class="container">
@@ -519,7 +524,7 @@
                     <li class="first">
                         <p class="title">스매시 CENTER</p>
                         <ul class="second">
-                            <li><a href="https://www.naver.com"><img src="QnA.png"></a></li>
+                            <li><a href="https://www.naver.com"><img src="img/QnA.png"></a></li>
                             <li>운영시간</li>
                             <li>평일 10:00 ~ 17:00</li>
                             <li>주말 10:00 ~ 14:00</li>

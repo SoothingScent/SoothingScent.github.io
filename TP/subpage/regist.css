@@ -1,0 +1,90 @@
+@charset "utf-8";
+.rtitle{
+    position: relative;
+    padding: 150px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.rtitle img{
+
+}
+.rtitle h2{
+    font-size: 32px;
+    font-weight: 600;
+   text-align: left;
+   margin-left: 80px;
+}
+.rtitle h3{
+    text-align: left;
+    font-size: 18px;
+    color: #aaa;
+    margin-left: 80px;
+}
+.inputalign{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.inputalign label{
+    float: left;
+    height: 20px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.inputalign input{
+    float: left;
+    margin-top: 3px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+.inputalign a{
+    float: right;
+    display: block;
+    width: 100px;
+    margin-left: 40px;
+    margin-right: 70px;
+    font-size: 13px;
+    height: 34px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    background-color: rgb(0, 168, 243);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    line-height: 34px;
+}
+.inputalign a:hover{
+    background-color: rgb(0, 140, 243);
+}
+.compbutton {
+    margin-left: 85px;
+    
+}
+.compbutton text{
+
+}
+.compbutton li a{
+    display: block;
+    width: 404px;
+    height: 50px;
+    background-color: rgb(0, 168, 243);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 50px;
+}
+.compbutton a:hover{
+    background-color: rgb(0, 140, 243);
+}
